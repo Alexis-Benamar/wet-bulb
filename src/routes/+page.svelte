@@ -17,7 +17,7 @@
 
 <svelte:head>
 	<title>Wet Bulb Calculator</title>
-	<meta name="description" content="Calculator for wet bulb temperature" />
+	<meta name="description" content="Find the equivalent temperature at which you may die if you stay outside for just a few hours" />
 </svelte:head>
 
 <main>
