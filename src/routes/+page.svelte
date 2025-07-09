@@ -83,6 +83,7 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: 2fr 1fr;
+    container-type: inline-size;
 
     h2, small {
       grid-column: span 2;
@@ -91,6 +92,10 @@
     .temp-form {
       display: flex;
       gap: 2rem;
+
+      @container (width < 600px) {
+        grid-column: span 2;
+      }
     }
 
     .form-output {
