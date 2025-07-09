@@ -15,6 +15,11 @@
   $inspect(temperature, humidity, result);
 </script>
 
+<svelte:head>
+	<title>Wet Bulb Calculator</title>
+	<meta name="description" content="Calculator for wet bulb temperature" />
+</svelte:head>
+
 <main>
   <hgroup>
     <h1>Wet bulb temperature calculator</h1>
